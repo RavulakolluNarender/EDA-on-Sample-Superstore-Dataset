@@ -1,39 +1,25 @@
-# I did Analysis of Airbnb Bookings Data using Python, Excel and Tableau
-### In real world we use each and every tool to get insights from the data.
+# I did Exploratory data analysis on Sample Superstore Dataset using Python, Tableau, Excel, SQL and R
+### All the tools will give us same output but we have to know when to use which tool.
 
-![alt text](https://miro.medium.com/max/1400/1*S3ONM9yONgjsyzl3-uRAAA.png)
+![alt text](https://miro.medium.com/max/1400/1*5C5cGP7Hc3oCsUktMkEOMw.png)
 
-### Before diving into the data analysis part let me give you brief Introduction and History of Airbnb.
+# Sample super store
+### We are going to perform extensive data analysis on sample superstore dataset to deliver insights on how the company can increase its profits while minimizing the losses.
 
-# What is Airbnb?
-### Airbnb, Inc. is an American company that operates an online marketplace for lodging, primarily home stays for vacation rentals, and tourism activities. Based in San Francisco, California, the platform is accessible via website and mobile app.
-
-### Airbnb does not own any of the listed properties; instead, it profits by receiving commission from each booking. The company was founded in 2008 by Brian Chesky, Nathan Blecharczyk and Joe Gebbia. Airbnb is a shortened version of its original name, AirBedandBreakfast.com.
-
-### The company has been criticized for possibly driving up home rents and creating nuisances for those living near leased properties. The company is regulated by many jurisdictions, including the European Union and cities such as San Francisco and New York City. It is viewed as a competitive threat by the hotel industry.
-
-# History of Airbnb?
-### After moving to San Francisco in October 2007, roommates and former schoolmates Brian Chesky and Joe Gebbia came up with the idea of putting an air mattress in their living room and turning it into a bed and breakfast. In February 2008, Nathan Blecharczyk, Chesky’s former roommate, joined as the Chief Technology Officer and the third co-founder of the new venture, which they named AirBed & Breakfast. They put together a website that offered short-term living quarters and breakfast for those who were unable to book a hotel in the saturated market. The site Airbedandbreakfast.com officially launched on August 11, 2008. The founders had their first customers in town in the summer of 2008, during the Industrial Design Conference held by Industrial Designers Society of America, where travelers had a hard time finding lodging in the city.
-### Computer programmer Paul Graham invited the founders to the January 2009 winter training session of his startup incubator, Y Combinator, which provided them with training and funding in exchange for a small interest in the company. In January 2009, the company received $20,000 in venture funding from Y Combinator. With the website already built, they used the Y Combinator investment to fly to New York to meet users and promote the site. They returned to San Francisco with a profitable business model to present to West Coast investors. By March 2009, the site had 10,000 users and 2,500 listings.
-
-### In March 2009, the name of the company was shortened to Airbnb.com, and the site’s content had expanded from air beds and shared spaces to a variety of properties including entire homes and apartments, private rooms, and other properties.
-
-# About Airbnb Booking Data
-### Since 2008, guests and hosts have used Airbnb to expand on traveling possibilities and present a more unique, personalized way of experiencing the world. Today, Airbnb became one of a kind service that is used and recognized by the whole world. Data analysis on millions of listings provided through Airbnb is a crucial factor for the company. These millions of listings generate a lot of data - data that can be analyzed and used for security, business decisions, understanding of customers’ and providers’ (hosts) behaviour and performance on the platform, guiding marketing initiatives, implementation of innovative additional services and much more.
-### This dataset has around 49,000 observations in it with 16 columns and it is a mix between categorical and numeric values.
-
-### Link to the Airbnb Dataset: [Click Here](https://drive.google.com/file/d/160VQauat2ZB14aQt1FW8JWca_Tjn_-Rb/view?usp=sharing)
+### Link to the Dataset: [Click Here](https://www.kaggle.com/bravehart101/sample-supermarket-dataset)
 
 # Questions which we are going to ask our Data
 
-### 1. What can we learn about different hosts and areas?
-### 2. What can we learn from predictions? (ex: locations, prices, reviews, etc)
-### 3. Which hosts are the busiest and why?
-### 4. Is there any noticeable difference of traffic among different areas and what could be the reason for it?
+### 1. Which shipping mode does customer choose based on the products category and sum of the quantity?
+### 2. Maximum number of Sales from which State?
+### 3. From which State we got maximum profit?
+### 4. Which Products are selling the most?
+### 5. Which Products are purchased in more quantity?
+### 6. By selling which products we got the maximum profit?
 
-# Airbnb Bookings Analysis using Python Programming Language
+# EDA on Sample superstore Dataset using Python Programming Language
 
-![alt text](https://miro.medium.com/max/1400/1*trz4gBm8CedrbjxE277ZpQ.png)
+![alt text](https://miro.medium.com/max/1400/1*YQvYNeGDD1dCc-VaGYW-Ww.png)
 ### Step1: Importing the necessary Libraries
 ### Step2: Mounting Google Drive and Creating a file path
 ### Step3: Importing Dataset From Drive
@@ -43,50 +29,58 @@
 ### Step7: Taking Necessary Columns Only
 ### Step8: Answering Question
 
-### Link to Google Colab NoteBook: [Click Here](https://colab.research.google.com/drive/1i6SgBolHXYfXA5DIEU2S0Hi79khlKwTD?usp=sharing)
+### Link to Google Colab NoteBook: [Click Here](https://colab.research.google.com/drive/1OBxUmEMewfmtRQl8cGMpbrcrNqDYcwG4?usp=sharing)
 
-# Airbnb Bookings Analysis using Excel
+# EDA on Sample superstore Dataset using Excel
 
-![alt text](https://miro.medium.com/max/1400/1*ezqkqkrwmRE1DjfCJ5jxfw.png)
-### As you can see I have removed latitude, longitude, last review and reviews per month columns from Dataset.
-## Steps to Analyse Airbnb Booking Data:
-### Steps1: I did find out the listings made by hosts in different Neighbourhood group.
-![alt text](https://miro.medium.com/max/1400/1*h6st5Mj2P3ypsB7b590DGQ.png)
-### Steps2: I did find out which room types are most famous and where they are located.
-![alt text](https://miro.medium.com/max/1400/1*JWaLEgMEzVUHgWAANJEW5A.png)
-### Steps3: I did find out which room types are most expensive and where they are located.
-![alt text](https://miro.medium.com/max/1400/1*H5QMb2-_UTEHBxRwsPP5dg.png)
-### Steps4: I did find out in which room type people are preferring to stay longer and where it is located.
-![alt text](https://miro.medium.com/max/1400/1*ETHFrwzudBXEJe7Jhh1__Q.png)
+![alt text](https://miro.medium.com/max/1400/1*5KFlbJmRf4XbJ3p6Hiwj6g.png)
+## Steps to perform EDA on Sample superstore Dataset using Excel
+### Steps1: I used Pivot Table to group by Ship Mode, Segment and Quantity to find out Which shipping mode does customer choose based on the products category and sum of the quantity?
+![alt text](https://miro.medium.com/max/1400/1*IrhOl41KwkLcqTCUIQOCog.png)
+### Steps2: I used Pivot Table to group by State, Sales and Profit to find out:
+###i) Maximum number of Sales from which State?
+###ii) From which State we got maximum profit?
+![alt text](https://miro.medium.com/max/1400/1*eseGQOgM0wKSLMJaILLqhg.png)
+### Steps3: I used Pivot Table to group by Category, Sub-Category, Sales, Quantity and Profit to find out:
+###i) Which Products are selling the most?
+###ii) Which Products are purchased in more quantity?
+###iii) By selling which products we got the maximum profit?
+![alt text](https://miro.medium.com/max/1400/1*l5Q-cyimT-cyOHZj6nCX3w.png)
 
-Link to Microsoft Excel: [Click Here](https://docs.google.com/spreadsheets/d/1FmOKvd94ClSNa4DMjKqOEvhsvMR3-SZW/edit#gid=770517699)
+###Link to Microsoft Excel: [Click Here](https://docs.google.com/spreadsheets/d/1eJvRbICUIBE_Eyf27ThQ_J18KTQrUcNi/edit#gid=171047099)
 
 # Data Visualization using Tableau
 
-### 1. Host Listings in Different Neighbourhood Groups
-![alt text](https://miro.medium.com/max/1400/1*uPaDAYh0BlQEZwJxRn4yNA.png)
-### 2. Number of Reviews with Respect to Room Type
-![alt text](https://miro.medium.com/max/1400/1*PRoWiwdhxhvZe6h1mUGv0g.png)
-### 3. Room type with Respect to Price in Different Neighbourhood
-![alt text](https://miro.medium.com/max/1400/1*FO2FrwiKs9oJodz7HM0zhg.png)
-### 4. Maximum Number of Nights Stayed in which Room Type
-![alt text](https://miro.medium.com/max/1400/1*9F9njFHM43I6seXLfDX8gQ.png)
+### 1. Ship Mode
+![alt text](https://miro.medium.com/max/1400/1*OnfcAvTQ8UuPwMuhA4wGHg.png)
+### 2. State
+![alt text](https://miro.medium.com/max/1400/1*SJlc7K0-SI_219w9CbtlOg.png)
+### 3. Category
+![alt text](https://miro.medium.com/max/1400/1*rsmRvzwknwV8v-HuAToWCg.png)
 
 ### Dashboard in Tableau:
-![alt text](https://miro.medium.com/max/1400/1*OXzoRPwadX88smJyJLfT8Q.png)
+![alt text](https://miro.medium.com/max/1400/1*etBqH2kFG3E_3_sCXMReLA.png)
 
-## Link to Tableau Dashboard: [Click Here](https://public.tableau.com/app/profile/narender.ravulakollu/viz/AirbnbData_16370814048030/Dashboard1)
+## Link to Tableau Dashboard: [Click Here](https://public.tableau.com/app/profile/narender.ravulakollu/viz/shared/RW73ZZ22Y)
 
-## Conclusion:
-### 1. The people who prefer to stay in Entire home or Apartment they are going to stay bit longer in that particular Neighbourhood only.
-### 2. The people who prefer to stay in Private room they won’t stay longer as compared to Home or Apartment.
-### 3. Most people prefer to pay less price.
-### 4. If there are more number of Reviews for particular Neighbourhood group that means that place is a tourist place.
-### 5. If people are not staying more then one night means they are travellers.
+# EDA on Sample Superstore Dataset using SQL
+###Link to SQL File: [Click Here](https://drive.google.com/file/d/1PSO5yodba0ZxXRew7IlJKlhlPbFcKM4Z/view)
+
+# EDA on Sample Superstore Dataset using R
+###Link to R File: [Click Here](https://www.kaggle.com/narenderravulakollu/eda-on-sample-superstore-dataset)
+
+
+## Final Conclusion:
+### 1. Most of the customers prefer to choose Standard mode for shipping while Compared to other modes.
+### 2. From Florida we got maximum sales.
+### 3. From Indiana we got maximum profit.
+### 4. Machines from Technology category are selling the most.
+### 5. Binders from Office Suppliers category are purchased in more quantity.
+### 6. By selling Copiers from Technology category we got the maximum profit.
 
 ## Link to Video Tutorial:
 
-[![IMAGE ALT TEXT HERE](https://miro.medium.com/max/1400/1*S3ONM9yONgjsyzl3-uRAAA.png)](https://youtu.be/Q2AFVafpRJA)
+[![IMAGE ALT TEXT HERE](https://miro.medium.com/max/1400/1*5C5cGP7Hc3oCsUktMkEOMw.png)](https://youtu.be/Q2AFVafpRJA)
 
 ### Thanks for Reading…
 ### Happy Coding
