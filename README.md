@@ -67,6 +67,7 @@
 ###Link to SQL File: [Click Here](https://drive.google.com/file/d/1PSO5yodba0ZxXRew7IlJKlhlPbFcKM4Z/view)
 
 # EDA on Sample Superstore Dataset using R
+![alt text](https://github.com/RavulakolluNarender/EDA-on-Sample-Superstore-Dataset/blob/main/r_kaggle.png?raw=true)
 ###Link to R File: [Click Here](https://www.kaggle.com/narenderravulakollu/eda-on-sample-superstore-dataset)
 
 
