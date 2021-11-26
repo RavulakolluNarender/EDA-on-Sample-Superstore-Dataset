@@ -64,6 +64,7 @@
 ## Link to Tableau Dashboard: [Click Here](https://public.tableau.com/app/profile/narender.ravulakollu/viz/shared/RW73ZZ22Y)
 
 # EDA on Sample Superstore Dataset using SQL
+![alt text](https://github.com/RavulakolluNarender/EDA-on-Sample-Superstore-Dataset/blob/main/sql_sss.png?raw=true)
 ###Link to SQL File: [Click Here](https://drive.google.com/file/d/1PSO5yodba0ZxXRew7IlJKlhlPbFcKM4Z/view)
 
 # EDA on Sample Superstore Dataset using R
@@ -81,7 +82,7 @@
 
 ## Link to Video Tutorial:
 
-[![IMAGE ALT TEXT HERE](https://miro.medium.com/max/1400/1*5C5cGP7Hc3oCsUktMkEOMw.png)](https://youtu.be/Q2AFVafpRJA)
+[![IMAGE ALT TEXT HERE](https://miro.medium.com/max/1400/1*5C5cGP7Hc3oCsUktMkEOMw.png)](https://youtu.be/WUnZnYonPhU)
 
 ### Thanks for Reading…
 ### Happy Coding
