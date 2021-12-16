@@ -38,16 +38,16 @@
 ### Steps1: I used Pivot Table to group by Ship Mode, Segment and Quantity to find out Which shipping mode does customer choose based on the products category and sum of the quantity?
 ![alt text](https://miro.medium.com/max/1400/1*IrhOl41KwkLcqTCUIQOCog.png)
 ### Steps2: I used Pivot Table to group by State, Sales and Profit to find out:
-###i) Maximum number of Sales from which State?
-###ii) From which State we got maximum profit?
+### i) Maximum number of Sales from which State?
+### ii) From which State we got maximum profit?
 ![alt text](https://miro.medium.com/max/1400/1*eseGQOgM0wKSLMJaILLqhg.png)
 ### Steps3: I used Pivot Table to group by Category, Sub-Category, Sales, Quantity and Profit to find out:
-###i) Which Products are selling the most?
-###ii) Which Products are purchased in more quantity?
-###iii) By selling which products we got the maximum profit?
+### i) Which Products are selling the most?
+### ii) Which Products are purchased in more quantity?
+### iii) By selling which products we got the maximum profit?
 ![alt text](https://miro.medium.com/max/1400/1*l5Q-cyimT-cyOHZj6nCX3w.png)
 
-###Link to Microsoft Excel: [Click Here](https://docs.google.com/spreadsheets/d/1eJvRbICUIBE_Eyf27ThQ_J18KTQrUcNi/edit#gid=171047099)
+### Link to Microsoft Excel: [Click Here](https://docs.google.com/spreadsheets/d/1eJvRbICUIBE_Eyf27ThQ_J18KTQrUcNi/edit#gid=171047099)
 
 # Data Visualization using Tableau
 
@@ -65,11 +65,11 @@
 
 # EDA on Sample Superstore Dataset using SQL
 ![alt text](https://github.com/RavulakolluNarender/EDA-on-Sample-Superstore-Dataset/blob/main/sql_sss.png?raw=true)
-###Link to SQL File: [Click Here](https://drive.google.com/file/d/1PSO5yodba0ZxXRew7IlJKlhlPbFcKM4Z/view)
+### Link to SQL File: [Click Here](https://drive.google.com/file/d/1PSO5yodba0ZxXRew7IlJKlhlPbFcKM4Z/view)
 
 # EDA on Sample Superstore Dataset using R
 ![alt text](https://github.com/RavulakolluNarender/EDA-on-Sample-Superstore-Dataset/blob/main/r_kaggle.png?raw=true)
-###Link to R File: [Click Here](https://www.kaggle.com/narenderravulakollu/eda-on-sample-superstore-dataset)
+### Link to R File: [Click Here](https://www.kaggle.com/narenderravulakollu/eda-on-sample-superstore-dataset)
 
 
 ## Final Conclusion:
